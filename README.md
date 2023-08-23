@@ -2,6 +2,15 @@
 
 This API provides endpoints for booking, managing, and viewing healthcare appointments.
 
+## Frameworks and Tools
+
+The API was built using the following frameworks and tools:
+
+- [FastAPI](https://fastapi.tiangolo.com/): A modern, fast, web framework for building APIs with Python 3.7+ based on standard Python type hints.
+- [Alembic](https://alembic.sqlalchemy.org/en/latest/): A database migration tool for SQLAlchemy, allowing you to manage changes to your database schema over time.
+- [PostgreSQL](https://www.postgresql.org/): A powerful, open-source relational database management system.
+- [SQLAlchemy](https://www.sqlalchemy.org/): A SQL toolkit and Object-Relational Mapping (ORM) library for Python.
+
 ## Endpoints
 
 ### 1) Create Appointment
