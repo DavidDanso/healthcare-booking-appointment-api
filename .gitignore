@@ -1,0 +1,154 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.env
+
+# Logs and other runtime generated files
+*.log
+logs/
+*.pid
+
+# Database files
+*.sqlite3
+
+# Dependency directories
+lib/
+lib64/
+include/
+bin/
+share/
+.venv/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyd
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Editor-specific swap files
+*~
+*.swp
+*.swo
+
+# Environment configuration files
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled Python files
+*.pyc
+__pycache__/
+*.pyo
+
+# Log files
+logs/
+*.log
+
+# User-specific IDE project settings
+.idea/
+.vscode/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+__pycache__/
+env/
+venv/
+node_modules/
+
+# Data and media files
+static/
+media/
+
+# Local development settings
+local_settings.py
+
+# Compiled output
+__pycache__/
+dist/
+build/
+*.pyc
+*.egg-info/
+*.egg
+*.out
+
+# Database files
+db.sqlite3
+
+# Secret keys
+*.key
+*.pem
+
+# Ignore .env file containing secret or sensitive information
+.env
+
+# Ignore Docker images and containers
+*.docker
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+*.pydevproject
+
+# Ignore generated files from documentation generators
+docs/_build/
+
+# Ignore compiled Python files and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore macOS directory metadata
+.DS_Store
+
+# Ignore system and IDE files
+Thumbs.db
+.DS_Store
+.project
+*.swp
+*.bak
+*~
+*.pyc
+*.idea/
+*.vscode/
+*.venv/
+*.pyproj
+*.user
+
+# Ignore virtual environment files
+venv/
+ENV/
