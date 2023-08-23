@@ -94,7 +94,6 @@ The API was built using the following frameworks and tools:
 ## How to Run Locally
 
 1. Clone this repository:
-
    
 ```
 git clone https://github.com/DavidDanso/healthcare-booking-appointment-api.git
@@ -105,7 +104,32 @@ cd healthcare-booking-appointment-api
 ```
 
 
-2. Install FastAPI with all dependencies or install all the packages in the requirements.txt file:
+2. Set up a virtual environment to isolate project dependencies:
+
+On Windows
+```
+python -m venv venv
+```
+
+On macOS and Linux
+```
+python3 -m venv venv
+```
+
+2.1. Activate the virtual environment:
+
+On Windows
+```
+venv\Scripts\activate
+```
+
+On macOS and Linux
+```
+source venv/bin/activate
+```
+
+
+3. Install FastAPI with all dependencies or install all the packages in the requirements.txt file:
 
 ```
 pip install fastapi[all]
@@ -116,14 +140,14 @@ pip install -r requirements.txt
 ```
 
 
-3. Run the API using uvicorn:
+4. Run the API using uvicorn:
 
 ```
 uvicorn app.main:app --reload
 ```
 
 
-4. Access the API documentation by visiting the following URL in your browser:
+5. Access the API documentation by visiting the following URL in your browser:
 
 ```
 http://127.0.0.1:8000/docs
